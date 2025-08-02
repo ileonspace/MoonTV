@@ -97,6 +97,21 @@
       "query": "华语"
     },
     {
+      "name": "中国大陆",
+      "type": "movie",
+      "query": "中国大陆"
+    },
+    {
+      "name": "中国香港",
+      "type": "movie",
+      "query": "中国香港"
+    },
+    {
+      "name": "中国台湾",
+      "type": "movie",
+      "query": "中国台湾"
+    },
+    {
       "name": "经典",
       "type": "movie",
       "query": "经典"
