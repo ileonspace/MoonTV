@@ -84,62 +84,43 @@
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
-  
-  
     }
-
   },
   "custom_category": [
     {
       "name": "华语",
       "type": "movie",
       "query": "华语"
-
-  },
-  "custom_category": [
+    },
     {
-      "name": "华语",
+      "name": "动作",
       "type": "movie",
-      "query": “动作”
-
-  },
-  "custom_category": [
+      "query": "动作"
+    },
     {
-      "name": "华语",
+      "name": "喜剧",
       "type": "movie",
-      "query": “喜剧”
-
-  },
-  "custom_category": [
+      "query": "喜剧"
+    },
     {
-      "name": "华语",
+      "name": "科幻",
       "type": "movie",
-      "query": “科幻”
-
-  },
-  "custom_category": [
+      "query": "科幻"
+    },
     {
-      "name": "华语",
+      "name": "悬疑",
       "type": "movie",
-      "query": “悬疑”
-
-  },
-  "custom_category": [
+      "query": "悬疑"
+    },
     {
-      "name": "华语",
+      "name": "恐怖",
       "type": "movie",
-      "query": “恐怖”
-
-  },
-  "custom_category": [
+      "query": "恐怖"
+    },
     {
-      "name": "华语",
+      "name": "治愈",
       "type": "movie",
-      "query": “治愈”
-
-
-
-
+      "query": "治愈"
     }
   ]
 }
