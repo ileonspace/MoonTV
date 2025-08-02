@@ -117,11 +117,6 @@
       "query": "日本"
     },
     {
-      "name": "动作",
-      "type": "movie",
-      "query": "动作"
-    },
-    {
       "name": "喜剧",
       "type": "movie",
       "query": "喜剧"
@@ -136,6 +131,31 @@
       "type": "movie",
       "query": "科幻"
     },
+    {
+      "name": "动作",
+      "type": "movie",
+      "query": "动作"
+    },
+    {
+      "name": "冒险",
+      "type": "movie",
+      "query": "冒险"
+   },
+    {
+      "name": "灾难",
+      "type": "movie",
+      "query": "灾难"
+    },
+    {
+      "name": "战争",
+      "type": "movie",
+      "query": "战争"
+    },
+    {
+      "name": "历史",
+      "type": "movie",
+      "query": "历史"
+   },
     {
       "name": "悬疑",
       "type": "movie",
