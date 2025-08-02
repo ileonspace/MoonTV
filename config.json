@@ -127,6 +127,11 @@
       "query": "喜剧"
     },
     {
+      "name": "爱情",
+      "type": "movie",
+      "query": "爱情"      
+    },
+    {
       "name": "科幻",
       "type": "movie",
       "query": "科幻"
