@@ -84,7 +84,11 @@
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
-    }
+   }
+
+
+
+
   },
   "custom_category": [
     {
@@ -143,24 +147,34 @@
       "query": "治愈"
     },
     {
-      "name": "华语",
-      "type": "tv",
-      "query": "华语"
-    },
-    {
-      "name": "国产",
-      "type": "tv",
-      "query": "国产"
-    },
-    {
       "name": "热门",
       "type": "tv",
       "query": "热门"
     },
     {
+      "name": "国产剧",
+      "type": "tv",
+      "query": "国产剧"
+    },
+    {
+      "name": "美剧",
+      "type": "tv",
+      "query": "美剧"
+ },
+    {
+      "name": "英剧",
+      "type": "tv",
+      "query": "英剧"
+    },
+    {
       "name": "港剧",
       "type": "tv",
       "query": "港剧"
+
+
+
+
     }
   ]
 }
+
