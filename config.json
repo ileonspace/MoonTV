@@ -87,12 +87,12 @@
     }
     // ...更多站点
   },
-  "custom_category": {
+  "custom_category": [
+    {
       "name": "华语",
       "type": "movie",
       "query": "华语"
     }
-  }
+  ]
 }
-
 
