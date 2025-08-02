@@ -155,7 +155,17 @@
       "name": "历史",
       "type": "movie",
       "query": "历史"
-   },
+    },
+    {
+      "name": "武侠",
+      "type": "movie",
+      "query": "武侠"
+    },
+    {
+      "name": "西部",
+      "type": "movie",
+      "query": "西部"
+    },
     {
       "name": "悬疑",
       "type": "movie",
@@ -170,6 +180,11 @@
       "name": "治愈",
       "type": "movie",
       "query": "治愈"
+    },
+    {
+      "name": "首映时间",
+      "type": "movie",
+      "query": "首映时间"
     },
     {
       "name": "热门",
