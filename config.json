@@ -182,11 +182,6 @@
       "query": "治愈"
     },
     {
-      "name": "首映时间",
-      "type": "movie",
-      "query": "首映时间"
-    },
-    {
       "name": "热门",
       "type": "tv",
       "query": "热门"
