@@ -178,6 +178,12 @@ function DoubanPageClient() {
   const loadInitialData = useCallback(async () => {
     try {
       setLoading(true);
+      // 确保在加载初始数据时重置页面状态
+      setDoubanData([]);
+      setCurrentPage(0);
+      setHasMore(true);
+      setIsLoadingMore(false);
+
       let data: DoubanResult;
 
       if (type === 'custom') {
@@ -201,7 +207,7 @@ function DoubanPageClient() {
         data = await getDoubanRecommends({
           kind: type === 'show' ? 'tv' : (type as 'tv' | 'movie'),
           pageLimit: 25,
-          pageStart: currentPage * 25,
+          pageStart: 0, // 初始数据加载始终从第一页开始
           category: multiLevelValues.type
             ? (multiLevelValues.type as string)
             : '',
@@ -244,12 +250,6 @@ function DoubanPageClient() {
     if (!selectorsReady) {
       return;
     }
-
-    // 重置页面状态
-    setDoubanData([]);
-    setCurrentPage(0);
-    setHasMore(true);
-    setIsLoadingMore(false);
 
     // 清除之前的防抖定时器
     if (debounceTimeoutRef.current) {
@@ -391,6 +391,11 @@ function DoubanPageClient() {
       // 只有当值真正改变时才设置loading状态
       if (value !== primarySelection) {
         setLoading(true);
+        // 立即重置页面状态，防止基于旧状态的请求
+        setCurrentPage(0);
+        setDoubanData([]);
+        setHasMore(true);
+        setIsLoadingMore(false);
 
         // 清空 MultiLevelSelector 状态
         setMultiLevelValues({
@@ -436,6 +441,11 @@ function DoubanPageClient() {
       // 只有当值真正改变时才设置loading状态
       if (value !== secondarySelection) {
         setLoading(true);
+        // 立即重置页面状态，防止基于旧状态的请求
+        setCurrentPage(0);
+        setDoubanData([]);
+        setHasMore(true);
+        setIsLoadingMore(false);
         setSecondarySelection(value);
       }
     },
@@ -463,6 +473,11 @@ function DoubanPageClient() {
       }
 
       setLoading(true);
+      // 立即重置页面状态，防止基于旧状态的请求
+      setCurrentPage(0);
+      setDoubanData([]);
+      setHasMore(true);
+      setIsLoadingMore(false);
       setMultiLevelValues(values);
     },
     [multiLevelValues]
